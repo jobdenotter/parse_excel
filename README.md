@@ -33,13 +33,19 @@ When you execute the program, it will print the dataframe
 | 1   | b        | e        |
 | 2   | c        | f        |
 
-Your challenge is to use [pandas to_csv](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html) and [pandas rename](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html) to generate a CVS file `example.csv` which looks like.
+Your challenge is to use [pandas to_csv](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html) and [pandas rename](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html) to generate a CVS file `example.csv` which looks like:
 
 | Instrument | Price |
 | ---------- | ----- |
 | TSLA       | 1     |
 | AAPL       | 2     |
 | MSFT       | 3     |
+
+I.E. \
+Instrument,Price \
+TSLA,1 \
+AAPL,2 \
+MSFT,3
 
 ### Hints
 
