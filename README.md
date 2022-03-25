@@ -22,3 +22,27 @@ Demo project for parsing Excel files to CSV using pandas. The commands in this R
 ## Running the program
 
 You can run any Python file from the command line using `py [filename]`. E.g. `py main.py`.
+
+## Exercise
+
+When you execute the program, it will print the dataframe
+
+|     | column 1 | column 2 |
+| --- | -------- | -------- |
+| 0   | a        | d        |
+| 1   | b        | e        |
+| 2   | c        | f        |
+
+Your challenge is to use [pandas to_csv](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html) and [pandas rename](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html) to generate a CVS file `example.csv` which looks like.
+
+| Instrument | Price |
+| ---------- | ----- |
+| TSLA       | 1     |
+| AAPL       | 2     |
+| MSFT       | 3     |
+
+### Hints
+
+- Try splitting the task into different steps.
+- You can access and modify elements of the pandas dataframe using `df[<column name>][<row index>]`.
+- Read the documentation of [pandas to_csv](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html) and [pandas rename](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html).

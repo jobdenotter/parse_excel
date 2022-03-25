@@ -2,6 +2,12 @@ import pandas as pd
 
 
 file_path = 'example.xlsx'
-ex_data = pd.read_excel(file_path)
+df = pd.read_excel(file_path)
 
-print(ex_data)
+# You can write your code here. 
+here = '<your code>'
+
+
+# You can keep this print statement, 
+# so you can monitor the effects of your code on the dataframe
+print('Entire dataframe: \n \n', df)
